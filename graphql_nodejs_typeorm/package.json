@@ -1,0 +1,25 @@
+{
+  "name": "graphql_nodejs_typeorm",
+  "version": "1.0.0",
+  "description": "Demo application, simple CRUD uses graphql and typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -w src --ext ts --exec ts-node backend/src/index.ts"
+  },
+  "dependencies": {
+    "apollo-server": "^3.3.0",
+    "graphql": "14.1.1",
+    "reflect-metadata": "0.1.13",
+    "type-graphql": "0.17.6",
+    "typeorm": "^0.2.37",
+    "typeorm-encrypted": "0.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.3",
+    "ts-node": "8.9.1",
+    "pg": "^8.7.1",
+    "typescript": "3.8.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
