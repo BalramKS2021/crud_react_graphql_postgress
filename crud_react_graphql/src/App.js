@@ -50,7 +50,7 @@ function App() {
   const handleSubmit = (event)=> {
     createUser({variables: { ...user }});
     event.preventDefault();
-    window.location.reload();
+    setTimeout(()=>{ window.location.reload(); }, 0);
   }
 
   if (loading) return <p>loading...</p>;
